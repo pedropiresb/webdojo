@@ -3,7 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "serve -s dist -p 3000"
+    "dev": "serve -s dist -p 3000",
+    "test": "npx cypress run",
+    "test:login": "npx cypress run --spec cypress/e2e/login.cy.js",
+    "test:login:mobile": "npx cypress run --spec cypress/e2e/login.cy.js --config viewportWidth=414,viewportHeight=896",
+    "test:form": "npx cypress run --spec cypress/e2e/form.cy.js"
   },
   "dependencies": {
     "serve": "^14.2.4"

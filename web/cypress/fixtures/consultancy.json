@@ -1,0 +1,50 @@
+{
+  "personal": {
+    "name": "Pedro Pires",
+    "email": "pedropires@email.com",
+    "phone": "8134711013",
+    "consultancyType": "Individual",
+    "personType": "Pessoa Física",
+    "documentNumber": "12345678901",
+    "channels": [
+      "Instagram",
+      "LinkedIn",
+      "Udemy",
+      "YouTube",
+      "Indicação de Amigo"
+    ],
+    "file": "./cypress/fixtures/document.pdf",
+    "text": "test",
+    "techs": [
+      "Cypress",
+      "Selenium",
+      "Robot",
+      "Playwright"
+    ],
+    "terms": true
+  },
+  "inCompany": {
+    "name": "Pedro Pires",
+    "email": "pedropires@email.com",
+    "phone": "8134711013",
+    "consultancyType": "InCompany",
+    "personType": "Pessoa Jurídica",
+    "documentNumber": "12345678901234",
+    "channels": [
+      "Instagram",
+      "LinkedIn",
+      "Udemy",
+      "YouTube",
+      "Indicação de Amigo"
+    ],
+    "file": "./cypress/fixtures/document.pdf",
+    "text": "test 2",
+    "techs": [
+      "Cypress",
+      "Selenium",
+      "Robot",
+      "Playwright"
+    ],
+    "terms": true
+  }
+}
